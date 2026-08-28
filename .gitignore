@@ -1,0 +1,16 @@
+# Проекты Vivado и артефакты симуляции — генерируемое, наружу не идут.
+proj/
+build/
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+.Xil/
