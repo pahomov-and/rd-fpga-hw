@@ -6,7 +6,7 @@
 *.runs/
 *.sim/
 *.gen/
-*.srcs/utils_1/
+**/*.srcs/utils_1/
 .Xil/
 *.jou
 *.log
