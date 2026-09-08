@@ -16,3 +16,8 @@
 **/task*/proj/
 
 build/
+
+# Артефакты xvlog/xelab/xsim из консольного прогона
+xsim.dir/
+*.out
+webtalk*
