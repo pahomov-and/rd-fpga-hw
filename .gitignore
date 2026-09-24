@@ -1,23 +1,48 @@
+# ---- Vivado ----
 *.cache/
 *.hw/
 *.ip_user_files/
 *.runs/
 *.sim/
 *.gen/
+*.srcs/sources_1/bd/*/hdl/
 **/*.srcs/utils_1/
 .Xil/
+*.Xil/
 *.jou
 *.log
 *.pb
 *.str
 *.wdb
 *.vcd
+*.backup.jou
+*.backup.log
+vivado_pid*.debug
+webtalk*
 
-**/task*/proj/
+# ---- Vitis (Unified IDE) ----
+build-vitis/
+build-vivado/
+**/Debug/
+**/Release/
+*.o
+*.d
+*.elf.bak
+*.bin
+*.pdi
+*.lock
+*.vitisWorkspace.json
+_ide/logs
+_ide/.wsdata
+/build
+/export
+/logs
+*.sw_folder_convert/
 
+# ---- Локальная проверка (make lint/elab/sim) ----
 build/
-
-# Артефакты xvlog/xelab/xsim из консольного прогона
 xsim.dir/
 *.out
-webtalk*
+
+# ---- Старая раскладка «проект на каждую задачу» ----
+**/task*/proj/
