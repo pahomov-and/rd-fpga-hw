@@ -1,0 +1,49 @@
+XSim behavioral simulation of design_1_wrapper with the real Vitis ELF
+(tb/led_runner_sim.elf, built with SIM_LED_DIV=1250 SIM_POLL_DIV=50).
+
+Block Memory Generator module tb_design_1.dut.design_1_i.microblaze_0_local_memory.lmb_bram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_11_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+      0.0 us  led = 0000   dt =      0.0 us
+    463.3 us  led = 0010   dt =    463.3 us
+    863.3 us  led = 0100   dt =    400.0 us
+   1263.6 us  led = 1000   dt =    400.3 us
+
+   1663.4 us  firmware is running
+   1663.4 us  led = 0001   dt =    399.8 us
+   2063.5 us  led = 0010   dt =    400.0 us
+   2463.5 us  led = 0100   dt =    400.0 us
+   2863.5 us  led = 1000   dt =    400.0 us
+
+--- btn0: faster ---
+   3263.6 us  led = 0001   dt =    400.1 us
+   3663.6 us  led = 0010   dt =    400.0 us
+   4023.6 us  led = 0100   dt =    360.0 us
+   4383.7 us  led = 1000   dt =    360.1 us
+   4743.7 us  led = 0001   dt =    360.0 us
+   5103.8 us  led = 0010   dt =    360.1 us
+
+--- btn1: slower ---
+   5463.9 us  led = 0100   dt =    360.2 us
+   5824.7 us  led = 1000   dt =    360.8 us
+   6225.4 us  led = 0001   dt =    400.7 us
+   6626.3 us  led = 0010   dt =    400.9 us
+   7027.0 us  led = 0100   dt =    400.7 us
+   7427.8 us  led = 1000   dt =    400.8 us
+
+--- sw0 = 0: direction right ---
+   7828.7 us  led = 0001   dt =    400.9 us
+   8221.2 us  led = 1000   dt =    392.4 us
+   8621.9 us  led = 0100   dt =    400.8 us
+   9022.8 us  led = 0010   dt =    400.8 us
+
+--- btn2: stop ---
+   9423.6 us  led = 0001   dt =    400.8 us
+  11023.6 us  stopped OK
+
+--- btn2: resume ---
+  11619.8 us  led = 1000   dt =   2196.2 us
+  12019.9 us  led = 0100   dt =    400.1 us
+  12420.0 us  led = 0010   dt =    400.1 us
+  12820.0 us  led = 0001   dt =    400.0 us
+
+TEST DONE
+$finish called at time : 13220185 ns : File "/home/tymbys/home/FPGA/course/courses/robot-dreams/hw/hw04_lesson10/task2_microblaze/tb/tb_design_1.sv" Line 77
