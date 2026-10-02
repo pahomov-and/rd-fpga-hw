@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_datamover_pkg" />
+            <top_module name="axi_dma_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb_system" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="4,000.000001 us"></ZoomEndTime>
+      <Cursor1Time time="4,000.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="292"></NameColumnWidth>
+      <ValueColumnWidth column_width="127"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="logic" fp_name="/tb_system/clk100">
+      <obj_property name="ElementShortName">clk100</obj_property>
+      <obj_property name="ObjectShortName">clk100</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/clk20">
+      <obj_property name="ElementShortName">clk20</obj_property>
+      <obj_property name="ObjectShortName">clk20</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/reset_rtl_0">
+      <obj_property name="ElementShortName">reset_rtl_0</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/gpio_rtl_0_tri_i">
+      <obj_property name="ElementShortName">gpio_rtl_0_tri_i[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_rtl_0_tri_i[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/pix_data_0">
+      <obj_property name="ElementShortName">pix_data_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_data_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/pix_sof_0">
+      <obj_property name="ElementShortName">pix_sof_0</obj_property>
+      <obj_property name="ObjectShortName">pix_sof_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/pix_valid_0">
+      <obj_property name="ElementShortName">pix_valid_0</obj_property>
+      <obj_property name="ObjectShortName">pix_valid_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/FRAME_BYTES">
+      <obj_property name="ElementShortName">FRAME_BYTES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_BYTES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/pix_sof_0">
+      <obj_property name="ElementShortName">pix_sof_0</obj_property>
+      <obj_property name="ObjectShortName">pix_sof_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/clk_wiz_1/locked">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/frame_rx_0/inst/armed">
+      <obj_property name="ElementShortName">armed</obj_property>
+      <obj_property name="ObjectShortName">armed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/frame_rx_0/inst/capturing">
+      <obj_property name="ElementShortName">capturing</obj_property>
+      <obj_property name="ObjectShortName">capturing</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/frame_rx_0/inst/m_axis_tvalid">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/frame_rx_0/inst/m_axis_tready">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/frame_rx_0/inst/m_axis_tlast">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/frame_rx_0/inst/rd_word_count">
+      <obj_property name="ElementShortName">rd_word_count[13:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_word_count[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/frame_rx_0/inst/overflow">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+</wave_config>

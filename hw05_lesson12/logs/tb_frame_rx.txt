@@ -1,0 +1,9 @@
+# run 1000ns
+Warning: SIM_ASSERT_CHK (1) specifies simulation message reporting, messages related to potential misuse will be reported.
+Time: 1 ps  Iteration: 0  Process: /tb_frame_rx/dut/fifo/gnuram_async_fifo.xpm_fifo_base_inst/Initial1559_128  Scope: tb_frame_rx.dut.fifo.gnuram_async_fifo.xpm_fifo_base_inst  File: /home/tymbys/soft/Xilinx_2025.1/2025.1/Vivado/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv Line: 1566
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_frame_rx_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 11000.438 ; gain = 0.000 ; free physical = 82324 ; free virtual = 120915
+run all
+TEST PASSED
+$finish called at time : 6270 ns : File "/home/tymbys/home/FPGA/course/courses/robot-dreams/hw/hw05_lesson12/tb/tb_frame_rx.sv" Line 136
