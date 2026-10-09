@@ -39,10 +39,10 @@ _ide/.wsdata
 /logs
 *.sw_folder_convert/
 
-# ---- Локальная проверка (make lint/elab/sim) ----
 build/
 xsim.dir/
 *.out
 
-# ---- Старая раскладка «проект на каждую задачу» ----
 **/task*/proj/
+
+.autopilot/

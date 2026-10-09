@@ -1,0 +1,3 @@
+relativeroot=/home/tymbys/home/FPGA/course/courses/robot-dreams/hw/hw07_lesson15/hls/hls_component
+original_argv=--mode hls --package --config /home/tymbys/home/FPGA/course/courses/robot-dreams/hw/hw07_lesson15/hls/hls_component/hls_config.cfg --work_dir moving_max 
+
