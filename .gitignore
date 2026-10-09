@@ -46,3 +46,18 @@ xsim.dir/
 **/task*/proj/
 
 .autopilot/
+
+# Состояние IDE и базы автодополнения — локальные пути, пересоздаются
+_ide/
+compile_commands.json
+
+# Vitis HLS: промежуточные артефакты сборки
+*_summary
+*.cmdline
+*.protoinst
+**/syn/report/*.xml
+**/reports/*.html
+**/reports/.db/
+**/impl/ip/pack.sh
+**/impl/ip/run_ippack.tcl
+**/misc/logo.png
