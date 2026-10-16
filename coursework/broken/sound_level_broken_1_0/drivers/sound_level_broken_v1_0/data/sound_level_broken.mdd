@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER sound_level_broken
+	OPTION supported_peripherals = (sound_level_broken);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = sound_level_broken;
+END DRIVER

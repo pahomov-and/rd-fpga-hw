@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 270" width="760" height="270"
+     font-family="DejaVu Sans, Arial, sans-serif" font-size="13">
+  <style>
+    .box  { fill:#f4f7fb; stroke:#30465e; stroke-width:1.6; rx:6; }
+    .ours { fill:#e8f2e0; stroke:#4a7a2a; stroke-width:2; }
+    .ext  { fill:#fdf3e3; stroke:#9a6b1e; stroke-width:1.6; }
+    .lbl  { fill:#1b2733; }
+    .sub  { fill:#5b6b7a; font-size:11px; }
+    .wire { stroke:#30465e; stroke-width:1.6; fill:none; }
+    .note { fill:#5b6b7a; font-size:11px; font-style:italic; }
+  </style>
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#30465e"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="20"  y="100" width="120" height="58"/>
+  <text class="lbl" x="80" y="124" text-anchor="middle">MicroBlaze</text>
+  <text class="sub" x="80" y="141" text-anchor="middle">програма на C</text>
+
+  <rect class="box" x="205" y="100" width="105" height="58"/>
+  <text class="lbl" x="257" y="124" text-anchor="middle">AXI</text>
+  <text class="sub" x="257" y="141" text-anchor="middle">SmartConnect</text>
+
+  <rect class="ours" x="378" y="32" width="150" height="62" rx="6"/>
+  <text class="lbl" x="453" y="56" text-anchor="middle" font-weight="bold">sound_level</text>
+  <text class="sub" x="453" y="73" text-anchor="middle">0x44A0_0000</text>
+  <text class="sub" x="453" y="87" text-anchor="middle">282 LUT · 293 FF</text>
+
+  <rect class="box" x="378" y="163" width="150" height="62" rx="6"/>
+  <text class="lbl" x="453" y="187" text-anchor="middle">AXI IIC</text>
+  <text class="sub" x="453" y="204" text-anchor="middle">0x4080_0000</text>
+  <text class="sub" x="453" y="218" text-anchor="middle">100 кГц</text>
+
+  <rect class="ext" x="596" y="32" width="146" height="62" rx="6"/>
+  <text class="lbl" x="669" y="58" text-anchor="middle">level[3:0]</text>
+  <text class="sub" x="669" y="77" text-anchor="middle">JP2, конт. 9–15</text>
+
+  <rect class="ext" x="596" y="163" width="146" height="62" rx="6"/>
+  <text class="lbl" x="669" y="189" text-anchor="middle">SSD1306</text>
+  <text class="sub" x="669" y="208" text-anchor="middle">128×64, адр. 0x3C</text>
+
+  <path class="wire" d="M140 129 H200" marker-end="url(#a)"/>
+  <path class="wire" d="M310 129 H344 V63 H373" marker-end="url(#a)"/>
+  <path class="wire" d="M310 129 H344 V194 H373" marker-end="url(#a)"/>
+  <path class="wire" d="M528 63  H591" marker-end="url(#a)"/>
+  <path class="wire" d="M528 194 H591" marker-end="url(#a)"/>
+
+  <text class="note" x="170" y="121" text-anchor="middle">AXI4-Lite</text>
+  <text class="note" x="560" y="56"  text-anchor="middle">4 біти</text>
+  <text class="note" x="560" y="187" text-anchor="middle">I²C</text>
+
+  <text class="sub" x="20" y="252">Зелений — модуль курсової. Жовтий — поза ПЛІС. Такт 125 МГц з Ethernet-мікросхеми, MMCM дає системі 100 МГц.</text>
+</svg>

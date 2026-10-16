@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300"
+     font-family="DejaVu Sans, Arial, sans-serif" font-size="12">
+  <style>
+    .bad  { fill:#d9604a; }
+    .good { fill:#5a9e42; }
+    .ax   { stroke:#8a98a6; stroke-width:1; }
+    .zero { stroke:#30465e; stroke-width:1.6; }
+    .lbl  { fill:#1b2733; font-size:12px; }
+    .val  { fill:#1b2733; font-size:12px; font-weight:bold; }
+    .sub  { fill:#5b6b7a; font-size:11px; }
+  </style>
+
+  <!-- нуль на y=70; масштаб 11 px на наносекунду -->
+  <line class="zero" x1="40" y1="70" x2="700" y2="70"/>
+  <text class="sub" x="34" y="74" text-anchor="end">0</text>
+  <line class="ax" x1="40" y1="25" x2="700" y2="25" stroke-dasharray="3 4"/>
+  <text class="sub" x="34" y="29" text-anchor="end">+4</text>
+  <line class="ax" x1="40" y1="180" x2="700" y2="180" stroke-dasharray="3 4"/>
+  <text class="sub" x="34" y="184" text-anchor="end">−10</text>
+
+  <rect class="bad"  x="70"  y="70" width="110" height="147"/>
+  <text class="val"  x="125" y="233" text-anchor="middle">−13.338</text>
+  <text class="lbl"  x="125" y="252" text-anchor="middle">вихідний</text>
+  <text class="sub"  x="125" y="268" text-anchor="middle">33 рівні логіки</text>
+
+  <rect class="bad"  x="230" y="70" width="110" height="41"/>
+  <text class="val"  x="285" y="127" text-anchor="middle">−3.705</text>
+  <text class="lbl"  x="285" y="252" text-anchor="middle">дерево + регістр</text>
+  <text class="sub"  x="285" y="268" text-anchor="middle">18 рівнів</text>
+
+  <rect class="bad"  x="390" y="70" width="110" height="8"/>
+  <text class="val"  x="445" y="94" text-anchor="middle">−0.726</text>
+  <text class="lbl"  x="445" y="252" text-anchor="middle">регістр n_win</text>
+  <text class="sub"  x="445" y="268" text-anchor="middle">12 рівнів</text>
+
+  <rect class="good" x="550" y="51" width="110" height="19"/>
+  <text class="val"  x="605" y="44" text-anchor="middle">+1.680</text>
+  <text class="lbl"  x="605" y="252" text-anchor="middle">конвеєр ярусу</text>
+  <text class="sub"  x="605" y="268" text-anchor="middle">вкладається</text>
+
+  <text class="sub" x="40" y="292">WNS, нс. Період 10 нс. Щоразу найдовший шлях розривався регістром — і оголювався наступний.</text>
+</svg>
